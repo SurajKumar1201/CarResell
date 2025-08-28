@@ -1,0 +1,39 @@
+.nav-container {
+    height: 70vh;
+    width: 100%;
+    background: url('../../../../../public/assets/background1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.nav-left img {
+    height: 5vh;
+}
+
+.nav-left h2 {
+    font-family: "Ojuju", sans-serif;
+}
+
+.nav-items {
+    // text-shadow: 0 1px 2px rgba(0, 0, 0, .15);
+    font-family: "Ojuju", sans-serif;
+    font-weight: 600;
+
+}
+.nav-btn{
+    font-family: "Ojuju", sans-serif;
+    font-weight: 700;
+    background-color: #969698;
+
+
+}
+.nav-background{
+    background: transparent;
+    backdrop-filter: blur(10px);
+    border-radius: 2000px;
+    height: 10vh;
+    // margin-top: 10px;
+    
+}

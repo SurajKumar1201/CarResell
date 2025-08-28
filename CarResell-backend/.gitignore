@@ -1,0 +1,95 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Diagnostics
+*.pid
+*.seed
+*.pid.lock
+
+# Runtime data
+pids
+*.pid
+*.seed
+
+# Coverage
+coverage
+*.lcov
+.nyc_output
+
+# Build outputs
+dist
+build
+out
+.out
+tmp
+temp
+.cache
+.cache-loader
+/.angular/cache
+/out-tsc
+/bazel-out
+
+# TypeScript
+*.tsbuildinfo
+
+# Compiled addons
+build/Release
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Package manager caches
+.npm
+.yarn
+.pnpm-store
+.pnpm-debug.log*
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Tooling
+.eslintcache
+.stylelintcache
+.prettier-cache
+
+# Testing
+testem.log
+karma-*.log
+*.snap
+.cypress-cache
+.playwright
+
+# IDEs and editors
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.sublime-workspace
+*.sublime-project
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+.history/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Misc
+libpeerconnection.log
+connect.lock
+typings/
+.sass-cache/

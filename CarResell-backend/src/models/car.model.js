@@ -1,0 +1,84 @@
+import mongoose from "mongoose";
+
+const carSchema= new mongoose.Schema({
+    carName:{
+        require:true,
+        Type:String
+    },
+    ownerName:{
+        require:true,
+        Type:String
+    },
+    price:{
+        require:true,
+        Type:String
+    },
+    year:{
+        require:true,
+        Type:String
+    },
+    engineSize:{
+        require:true,
+        Type:String
+    },
+    milage:{
+        require:true,
+        Type:String
+    },
+    driverType:{
+        require:true,
+        Type:String
+    },
+    cylinders:{
+        require:true,
+        Type:String
+    },
+    seats:{
+        require:true,
+        Type:String
+    },
+    fuleType:{
+        require:true,
+        Type:String
+    },
+    doors:{
+        require:true,
+        Type:String
+    },
+    color:{
+        require:true,
+        Type:String
+    },
+    description:{
+        require:true,
+        Type:String
+    },
+    cityMPG:{
+        require:true,
+        Type:String
+    },
+    hoghwayMPG:{
+        require:true,
+        Type:String
+    },
+    address:{
+        require:true,
+        Type:String
+    },
+    addressLink:{
+        require:true,
+        Type:String
+    },
+    carImages:{
+        require:true,
+        Type:[String],
+        validate:{
+            validator:(arr)=>{
+                return arr.length>=1 && arr.length<=5;
+            },
+            message:"Cat must have atleast 1 and at most 5 images"
+        }
+    }
+})
+
+export const Cars= mongoose.model("Car",carSchema)
